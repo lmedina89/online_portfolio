@@ -122,7 +122,9 @@
     @include easeOut;
 
     &:hover {
-      color: $secondary-color;
+      padding: 0.5rem 1.5rem;
+      color: set-text-color($secondary-color);
+      font-size: large;
     }
   }
 }
