@@ -125,6 +125,7 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
+  text-align: center;
 
   img {
     width: 100%;
@@ -138,7 +139,26 @@ main {
     }
   }
 }
+// More Project Pictures Page
 
+.projects2 {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: 75%;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
 // Contact Page
 .boxes {
   display: flex;
