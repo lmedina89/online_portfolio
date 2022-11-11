@@ -30,8 +30,10 @@ h3 {
       font-weight: 600;
     }
   }
+
   margin: 0;
   font-weight: 400;
+
   &.lg-heading {
     font-size: 6rem;
   }
@@ -76,6 +78,7 @@ main {
 
   &#home {
     overflow: hidden;
+
     h1 {
       margin-top: 20vh;
     }
@@ -106,9 +109,11 @@ main {
 .job-1 {
   grid-area: job1;
 }
+
 .job-2 {
   grid-area: job2;
 }
+
 .job-3 {
   grid-area: job3;
 }
@@ -139,6 +144,7 @@ main {
     }
   }
 }
+
 // More Project Pictures Page
 
 .projects2 {
@@ -159,6 +165,7 @@ main {
     }
   }
 }
+
 // Contact Page
 .boxes {
   display: flex;
@@ -178,6 +185,7 @@ main {
       padding: 0.5rem 1.5rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
+
       span {
         color: set-text-color($secondary-color);
       }
